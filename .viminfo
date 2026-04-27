@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1777275711,,"wq"
+|2,0,1777276614,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -23,16 +23,59 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	pipeline {
+|3,1,1,1,1,0,1777276604,"pipeline {"
+"2	LINE	0
+	    agent any
+|3,0,2,1,1,0,1777276604,"    agent any"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1777276604,""
+"4	LINE	0
+	    stages {
+|3,0,4,1,1,0,1777276604,"    stages {"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1777276604,""
+"6	LINE	0
+	        stage('Clone') {
+|3,0,6,1,1,0,1777276604,"        stage('Clone') {"
+"7	LINE	0
+	            steps {
+|3,0,7,1,1,0,1777276604,"            steps {"
+"8	LINE	0
+	                echo 'Cloning code...'
+|3,0,8,1,1,0,1777276603,"                echo 'Cloning code...'"
+"9	LINE	0
+	            }
+|3,0,9,1,1,0,1777276603,"            }"
 
 # File marks:
-'0  1  44  ~/app.sh
-|4,48,1,44,1777275711,"~/app.sh"
+'0  17  0  ~/jenkinsfile
+|4,48,17,0,1777276614,"~/jenkinsfile"
+'1  1  44  ~/app.sh
+|4,49,1,44,1777275711,"~/app.sh"
 
 # Jumplist (newest first):
+-'  17  0  ~/jenkinsfile
+|4,39,17,0,1777276614,"~/jenkinsfile"
+-'  1  0  ~/jenkinsfile
+|4,39,1,0,1777276577,"~/jenkinsfile"
+-'  1  44  ~/app.sh
+|4,39,1,44,1777275711,"~/app.sh"
 -'  1  44  ~/app.sh
 |4,39,1,44,1777275711,"~/app.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/jenkinsfile
+	*	1777276608	0
+	"	17	0
+	^	17	1
+	.	17	0
+	+	1	10
+	+	17	0
 
 > ~/app.sh
 	*	1777275709	0
